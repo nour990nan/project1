@@ -1,0 +1,156 @@
+.container {
+    position: absolute;
+    display: flex;
+    margin: 50px;
+  }
+
+  .form1{
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    width: 320px;
+    height: 200px;
+    background-color: rgb(217, 215, 217);
+    border-radius: 10px;
+  }
+  .form2{
+    position: absolute;
+    left: 100px;
+    top: 380px;
+    width: 320px;
+    height: 150px;
+    background-color: rgb(217, 215, 217);
+    border-radius: 10px;
+  }
+  .form3{
+    position: absolute;
+    left: 550px;
+    top: 90px;
+    width: 340px;
+    height: 470px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 20px 20px 5px rgb(217, 215, 217);
+  }
+  .form3 label {
+    color: gray;
+  }
+  .form3 span{
+    color: gray;
+  }
+  h2 {
+    position: absolute;
+    left: 230px;
+    top: 60px;
+    width: 200px;
+    color:#1d4cba;
+    margin-bottom: 10px;
+  }
+  h3{
+    position: absolute;
+    left: 180px;
+    top: -50px;
+    width: 200px;
+    color:#1d4cba;
+    margin-bottom: 10px;
+  }
+  .form1 input {
+    width: 95%;
+    margin: 5px 5px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+  }
+  .form2 input {
+    width: 95%;
+    margin: 5px 5px;
+    padding: 5px;
+    text-align:center;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+  }
+  .form3 input {
+    width: 80%;
+    margin: 5px 20px;
+    padding: 5px;
+    text-align:right;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(234, 226, 226);
+    color: gray;
+
+  }
+  .form3 label{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  h4{
+    position: absolute;
+    left: 140px;
+    top: -40px;
+    width: 200px;
+    color:#1d4cba;
+    margin-bottom: 10px;
+  }
+  .form1 .s1{
+    position: absolute;
+    right: 15px;
+    top: 25px;
+  }
+  .form1 .s2{
+    position: absolute;
+    right: 15px;
+    top: 90px;
+  }
+  .form1 .s3{
+    position: absolute;
+    right: 15px;
+    top: 145px;
+  }
+  label {
+    display: block;
+
+  }
+
+  .save-btn {
+    position: absolute;
+   top: 435px;
+   left: 100px;
+    width: 130px;
+    height: 30px;
+    background-color: #1d4cba;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+  }
+
+  .img-user{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    width: 130px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 10px;
+  }
+  .img-user svg{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
+  .form2 .s1{
+    position: absolute;
+    top: 25px;
+    left: 240px;
+  }
+  .form2 .s2{
+    position: absolute;
+    top: 85px;
+    left: 240px;
+  }
